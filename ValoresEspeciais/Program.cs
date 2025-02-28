@@ -34,8 +34,11 @@ namespace ValoresEspeciais
 
             Console.WriteLine("\nValores Especiais:");
 
-            Console.WriteLine($"Float: +∞ = {float.PositiveInfinity}, -∞ = {float.NegativeInfinity}, NaN = {float.NaN}");
-            Console.WriteLine($"Double: +∞ = {double.PositiveInfinity}, -∞ = {double.NegativeInfinity}, NaN = {double.NaN}");
+            Console.WriteLine($"Float: {float.PositiveInfinity}, {float.NegativeInfinity}, {float.NaN}");
+            Console.WriteLine($"Double: {double.PositiveInfinity}, {double.NegativeInfinity}, {double.NaN}");
+
+            uint i = ushort.MaxValue;
+            Console.WriteLine(( ushort) ( i + 1)); 
 
         }
     }

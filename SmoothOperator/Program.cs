@@ -13,7 +13,7 @@ namespace SmoothOperator
             
             string x = Console.ReadLine();
 
-            int y = int.Parse(x);
+            sbyte y = Convert.ToSByte(x);
 
             y--;
 
