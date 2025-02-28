@@ -43,6 +43,13 @@ namespace ValoresEspeciais
             float y = float.MaxValue;
             Console.WriteLine((float) ( y + 1)); 
 
+            float undr1 , undr2 ;
+
+
+            undr1 = undr2 = 10000.0f;
+            
+            Console.WriteLine(undr1 == undr2 + 0.0001f);
+
         }
     }
 }
