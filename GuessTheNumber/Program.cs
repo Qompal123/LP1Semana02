@@ -18,7 +18,7 @@ namespace GuessTheNumber
 
             while (correct)
             {
-                Console.WriteLine("Insert number: ");
+                Console.Write("Insert number: ");
 
                 string x = Console.ReadLine();
 
