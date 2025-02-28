@@ -8,21 +8,21 @@ namespace Cilindro
     {
         private static void Main(string[] args)
         {
-            Console.WriteLine("Input the height of the cylendar.");
+            Console.WriteLine("Qual a altura do cilindro: ");
 
-            string read = Console.ReadLine();
+            string alt = Console.ReadLine();
 
-            int alt = int.Parse(read);
+            Console.WriteLine("Qual o raio do cilindro: ");
 
-            Console.WriteLine("Input the radius of the cylendar.");
+            string r = Console.ReadLine();
 
-            string reaD = Console.ReadLine();
+            int altC = int.Parse(alt);
 
-            int r = int.Parse(read);
+            int rC = int.Parse(r);
 
-            double v = Math.PI * r * r * alt;
+            double v = Math.PI * rC * rC * altC;
 
-            double sA = 2 * Math.PI * Math.Pow(r,2) + 2 * Math.PI * r * alt:
+            double sA = 2 * Math.PI * Math.Pow(rC, 2) + 2 * Math.PI * rC * altC;
 
             Console.WriteLine(v);
             Console.WriteLine(sA);
