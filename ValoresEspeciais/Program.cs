@@ -40,6 +40,9 @@ namespace ValoresEspeciais
             uint i = ushort.MaxValue;
             Console.WriteLine(( ushort) ( i + 1)); 
 
+            float y = float.MaxValue;
+            Console.WriteLine((float) ( y + 1)); 
+
         }
     }
 }
